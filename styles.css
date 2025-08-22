@@ -1,0 +1,14 @@
+body {
+  background-color: #24273a;
+  color: #cad3f5;
+  font-family: Courier;
+} 
+
+a {
+  color: #8aadf4;
+} 
+
+h1 {
+    margin-left:100px;
+    margin-right:100px;
+}
