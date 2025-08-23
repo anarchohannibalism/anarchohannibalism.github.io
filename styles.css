@@ -2,13 +2,39 @@ body {
   background-color: #24273a;
   color: #cad3f5;
   font-family: Courier;
+  font-size:large;
 } 
 
 a {
-  color: #8aadf4;
-} 
+  outline-color: transparent;
+}
+
+a:link {
+  color: #b8c0e0;
+}
+
+a:visited {
+  color: #c6a0f6;
+}
+
+a:focus {
+  text-decoration: none;
+  background: #8087a2;
+}
+
+a:hover {
+  text-decoration: none;
+  background: #363a4f;
+}
+
+a:active {
+  background: #b7bdf8;
+  color: #363a4f;
+}
 
 h1 {
-    margin-left:100px;
-    margin-right:100px;
+    text-align: center;
+}
+h2  {
+  text-align: center;
 }
